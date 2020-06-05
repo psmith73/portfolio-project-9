@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(
+              rgba(30,30,30, .7), 
+              rgba(30,30,30, .7)),
+              url('../img/wall.png');
+}
+
+.container {
+    height: 100vh;
+    padding-top: 10%;
+}
+
+p {
+    color: #f0f0f0;
+}
+
+.check {
+    display: block;
+    color: #4bffa5;
+    padding-bottom: 2rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 5%;
+    padding: .5rem 1.1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 1rem 0 3rem 0;
+}
+
+.btn-outline-light {
+    border-color: rgba(41, 46, 51, 0.85);
+    background-color: rgba(41, 46, 51, 0.85);
+    color: white;
+}
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+    border-color: rgba(22, 24, 27, 0.85);
+    background-color: rgba(22, 24, 27, 0.85);
+    color: #4bffa5;
+}
